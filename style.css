@@ -32,9 +32,20 @@ body {
     display: flex;
 }
 
+/* Left side content in page in Main section */
+
+
+.main_left{
+    margin-right: 94px;
+}
+
 .desktop_web3>img {
-    width: 100vh;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.desktop_web3{
+    width: 52rem;
 }
 
 
@@ -46,7 +57,11 @@ body {
 .para {
     font-family: 'Inter', sans-serif;
     text-align: left;
-    width: 13rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    padding: 20px 0px;
 }
 
 .headline {
@@ -61,9 +76,73 @@ body {
     color: white;
     border: none;
     margin: 40px 0px;
+    font-size: medium;
+    font-weight: 400;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color: black;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+
+/* Right side content i.e. News bar in Main section */
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_right{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 6px 38px
+}
+
+.main_right>h1{
+    color: #e9ab53;
+    font-weight: 700;
+}
+
+.left_item>h2{
+    font-weight: 700;
+}
+
+.left_item>h2:hover{
+    cursor: pointer;
+    color: #e9ab53;
+}
+
+.left_item>p{
+    font-weight: 400;
+}
+
+
+
+/* Foot itmes styling*/
+
+.foot_image>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.foot_image{
+    padding: 42px 0px;  
+}
+
+.foot_item{
+    display: flex;
+    margin: 0px 6px;
+}
+
+.foot_cont{
+    margin: 5px 5px;
+    width: 370px;
+    padding: 0px 10px;
 }
