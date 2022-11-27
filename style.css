@@ -165,3 +165,8 @@ h1{
     cursor: pointer;
     color: hsl(5, 85%, 63%); 
 }
+
+.attribution{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
