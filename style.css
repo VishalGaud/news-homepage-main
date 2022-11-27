@@ -25,6 +25,10 @@ body {
     color: #e9ab53;
 }
 
+.hamburgur{
+    display: none;
+}
+
 
 /* Main content of site */
 
@@ -39,13 +43,19 @@ body {
     margin-right: 94px;
 }
 
+/* Image in Main section */
+
 .desktop_web3>img {
     max-width: 100%;
     max-height: 100%;
 }
 
 .desktop_web3{
-    width: 52rem;
+    /* width: 52rem; */
+}
+
+#web3_mobile{
+    display: none;
 }
 
 
@@ -108,7 +118,7 @@ h1{
 
 .main_right>h1{
     color: #e9ab53;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .left_item>h2{

@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./phone.css">
+  <link rel="stylesheet" media="screen and (max-width: 1140px)" href="./phone.css">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@532&family=Inter:wght@400;700;800&display=swap"
     rel="stylesheet">
 
@@ -21,17 +21,25 @@
   <!-- Navigation Bar -->
   <nav class="nav_bar">
     <div class="left_nav_logo">
-      <img src="./assets/images/logo.svg" alt="">
+
+      <img src="./assets/images/logo.svg">
     </div>
 
     <div class="right_nav_items">
-      <ul class="list_items">
-        <li id="nav_item">Home</li>
-        <li id="nav_item">New</li>
-        <li id="nav_item">Popular</li>
-        <li id="nav_item">Trending</li>
-        <li id="nav_item">Categories</li>
-      </ul>
+      <div class="desktop">
+        <ul class="list_items">
+          <li id="nav_item">Home</li>
+          <li id="nav_item">New</li>
+          <li id="nav_item">Popular</li>
+          <li id="nav_item">Trending</li>
+          <li id="nav_item">Categories</li>
+        </ul>
+      </div>
+      <div class="hamburgur">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </div>
 
   </nav>
@@ -46,7 +54,8 @@
 
       <div class="desktop_web3">
 
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <img src="./assets/images/image-web-3-mobile.jpg" id="web3_mobile">
+        <img src="./assets/images/image-web-3-desktop.jpg" id="web3_desktop">
 
       </div>
       <!-- Headline and paragraph inside -->
@@ -59,9 +68,9 @@
         </div>
 
         <div class="para">
-          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
-          of the people.
-          But is it really fulfilling its promise?
+          
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        
           <div>
             <button class="btn">Read more</button>
           </div>
@@ -76,7 +85,7 @@
       <h1>News</h1>
       <div class="left_item">
         <h2>Hydrogen VS Electric Cars</h2>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p> AA
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         <hr>
       </div>
       <div class="left_item">
@@ -89,7 +98,7 @@
         <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         <hr>
       </div>
-        
+
 
     </div>
   </main>
