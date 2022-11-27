@@ -146,3 +146,12 @@ h1{
     width: 370px;
     padding: 0px 10px;
 }
+.foot_cont>h1{
+    
+    color: hsl(233, 8%, 79%); 
+}
+
+.foot_cont>h3:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%); 
+}
